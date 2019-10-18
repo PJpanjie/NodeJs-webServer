@@ -1,0 +1,19 @@
+{
+    "name": "node",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT",
+    "scripts": {
+        "test": "",
+        "dev": "cross-env NODE_ENV=dev nodemon ./bin/www.js",
+        "prd": "cross-env NODE_ENV=production nodemon ./bin/www.js"
+    },
+    "devDependencies": {
+        "cross-env": "^5.2.0",
+        "nodemon": "^1.19.1",
+        "mysql": "^2.17.1"
+    },
+    "dependencies": {
+        "redis": "^2.8.0"
+    }
+}
